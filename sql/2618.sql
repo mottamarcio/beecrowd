@@ -60,4 +60,4 @@ inner join providers
 on products.id_providers = providers.id
 inner join categories
 on products.id_categories = categories.id
-where categories.name = 'Imported'
+where categories.name = 'Imported' AND providers.name = 'Sansul SA'
